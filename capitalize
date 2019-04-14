@@ -1,0 +1,16 @@
+const String = 'i want a job';
+
+
+function UpperCaser (Str) {  
+  return Str.toUpperCase();
+}
+
+
+
+function firstLetter(Str) {
+    return Str.charAt(0).toUpperCase() + Str.slice(1);
+}
+
+
+console.log(UpperCaser (String));
+console.log(firstLetter (String));
